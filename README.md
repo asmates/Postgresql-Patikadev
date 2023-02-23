@@ -1,0 +1,1 @@
+# Postgresql-Patikadev-SoruCözümleri
