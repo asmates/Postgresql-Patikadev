@@ -1,8 +1,8 @@
 /*
 SORU ÇÖZÜMÜ - 1 :
 -> film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
--> film tablosunda bulunan tüm sütunlardaki verileri film length'i 60'dan büyük ve 75'ten küçük olma koşullarıyla sıralayınız.
--> film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 ve replacement_cost 12.99 veya 28.99 olma koşullarıyla sıralayınız.
+-> film tablosunda bulunan tüm sütunlardaki verileri film length'i 60'dan büyük ve 75'ten küçük olma koşulu ile sıralayınız.
+-> film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 ve replacement_cost 12.99 veya 28.99 olma koşulu ile sıralayınız..
 -> customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değerini sıralayınız.
 -> film tablosundaki length'i 50'den büyük olmayıp aynı zamanda rental_rate değeri 2.99 veya 4.99 olmayan verileri sıralayınız.
 */
