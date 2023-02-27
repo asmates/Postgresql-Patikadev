@@ -1,1 +1,1 @@
-# Postgresql-Patikadev-SoruCözümleri
+# Postgresql-Patikadev
