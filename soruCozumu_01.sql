@@ -10,7 +10,8 @@ SORU ÇÖZÜMÜ - 1 :
 select *
 from film;
 
-select * from
+select * 
+from
 customer;
 
 --film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
