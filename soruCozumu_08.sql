@@ -1,7 +1,7 @@
 /*
 SORU ÇÖZÜMÜ - 8 :                                                                                                                                                                                
--> "employee" isimli sütun bilgileri id (INTEGER), name VARCHAR (50), birthday DATE, email VARCHAR (100) olan bir tablo oluşturunuz.
--> Oluştururlan "employee" tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyiniz.
+-> employee isimli sütun bilgileri id (INTEGER), name VARCHAR (50), birthday DATE, email VARCHAR (100) olan bir tablo oluşturunuz.
+-> Oluşturulan "employee" tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyiniz.
 -> Sütunların her birine göre diğer sütunları güncelleyecek 5 adet "UPDATE" işlemi yapınız.
 -> Sütunların her birine göre ilgili satırı silecek 5 adet "DELETE" işlemi yapınız.
 */
@@ -9,7 +9,7 @@ SORU ÇÖZÜMÜ - 8 :
 select *
 from employee;
 
---"employee" isimli sütun bilgileri id (INTEGER), name VARCHAR (50), birthday DATE, email VARCHAR (100) olan bir tablo oluşturunuz.
+--employee isimli sütun bilgileri id (INTEGER), name VARCHAR (50), birthday DATE, email VARCHAR (100) olan bir tablo oluşturunuz.
 create table employee (
 id INTEGER,
 name VARCHAR(50),
@@ -17,7 +17,7 @@ birthday DATE,
 email VARCHAR(100)
 );
 
---Oluştururlan "employee" tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyiniz.
+--Oluşturulan "employee" tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyiniz.
 insert into employee (id, name, birthday, email) values (1, 'Kirk', '4/30/2022', 'kmarchi0@hp.com');
 insert into employee (id, name, birthday, email) values (2, 'Tobe', '8/7/2022', 'tpiggott1@tmall.com');
 insert into employee (id, name, birthday, email) values (3, 'Lowell', '6/18/2022', 'lfeatherstone2@springer.com');
