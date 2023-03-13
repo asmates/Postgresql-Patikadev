@@ -14,8 +14,7 @@ select *
 from country;
 
 select * 
-from
-customer;
+from customer;
 
 select *
 from payment;
