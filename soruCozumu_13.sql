@@ -1,7 +1,7 @@
 /*
 SORU ÇÖZÜMÜ - 13 :                                                                                                                                                                                
--> film tablosundan 'K' karakteri ile başlayan en uzun ve replacement_cost'u en düşük 4 filmi sıralayınız.
--> film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
+-> film tablosunda 'K' karakteri ile başlayan length'i en uzun ve replacement_cost'u en düşük 4 filmi sıralayınız.
+-> film tablosunda içerisinde en fazla sayıda film bulunduran rating kategorisi hangisidir?
 -> customer tablosunda en çok alışveriş yapan müşterinin adı nedir?
 -> category tablosundan kategori isimlerini ve kategori başına düşen film sayılarını sıralayınız.
 -> film tablosunda isminde en az 4 adet 'e' veya 'E' karakteri bulunan kaç tane film vardır?
@@ -22,13 +22,13 @@ from category;
 select *
 from film_category;
 
---film tablosundan 'K' karakteri ile başlayan en uzun ve replacement_cost'u en düşük 4 filmi sıralayınız.
+--film tablosunda 'K' karakteri ile başlayan length'i en uzun ve replacement_cost'u en düşük 4 filmi sıralayınız.
 select *
 from film
 where title like 'K%'
 order by length desc, replacement_cost asc limit 4;
 
---film tablosunda içerisinden en fazla sayıda film bulunduran rating kategorisi hangisidir?
+--film tablosunda içerisinde en fazla sayıda film bulunduran rating kategorisi hangisidir?
 select rating, count(*)
 from film
 group by rating
