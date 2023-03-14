@@ -3,7 +3,7 @@ SORU ÇÖZÜMÜ - 11 :
 -> actor ve customer tablolarında bulunan first_name sütunları için tüm verileri sıralayınız.
 -> actor ve customer tablolarında bulunan first_name sütunları için kesişen verileri sıralayınız.
 -> actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayınız.
--> İlk 3 sorguyu tekrar eden veriler için sıralayınız.
+-> İlk 3 soruyu tekrar eden veriler için sıralayınız.
 */
 
 select *
@@ -39,7 +39,7 @@ EXCEPT
 select first_name
 from customer;
 
---İlk 3 sorguyu tekrar eden veriler için sıralayınız.
+--İlk 3 soruyu tekrar eden veriler için sıralayınız.
 --1.Soru :
 select first_name  
 from actor
